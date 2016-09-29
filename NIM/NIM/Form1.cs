@@ -43,7 +43,7 @@ namespace NIM
 
         private void DrawItRed(int x)
         {
-            System.Drawing.SolidBrush myBrush = new System.Drawing.SolidBrush(System.Drawing.Color.Red);
+            System.Drawing.SolidBrush myBrush = new System.Drawing.SolidBrush(System.Drawing.Color.RoyalBlue);
             System.Drawing.Graphics formGraphics;
             formGraphics = this.CreateGraphics();
             formGraphics.FillEllipse(myBrush, new Rectangle(x, 150, 50, 50));
