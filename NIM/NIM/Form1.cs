@@ -83,7 +83,7 @@ namespace NIM
             if (endcounter >= 11)
             {
 
-                MessageBox.Show("Du hast verloren! ", "Spielende",MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Du hast verloren? ", "Spielende",MessageBoxButtons.OK, MessageBoxIcon.Information);
                 space = 10;
                 room = 10;
                 loopi = 11;
